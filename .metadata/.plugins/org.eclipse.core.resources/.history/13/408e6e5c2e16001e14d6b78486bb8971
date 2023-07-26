@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>브라우저와 관련된 객체</title>
+		<script type="text/javascript">
+			/* 계층 구조
+				- window : 브라우저 창이 열릴 때마다 하나씩 만들어진다. 브라우저 관련 최상위
+				 -- document : 웹 문서 하나당 하나 <body>태그를 만나면 만들어진다.
+				 -- history  : 사용자 방문 기록을 저장한다.
+				 -- location
+				 -- navigator
+				 -- screen
+			*/
+			
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>라이트 박스</title>
+		
+	</head>
+	<body>
+		<div class="row">
+			<ul>
+				<li><img alt="" src="../images/tree-1-thumb.jpg" data-src="../images/tree-1.jpg" class="pic">
+			</ul>
+		</div>
+	</body>
+</html>

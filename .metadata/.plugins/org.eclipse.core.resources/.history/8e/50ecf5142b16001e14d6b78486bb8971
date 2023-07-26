@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>당첨자 발표</title>
+		<style type="text/css">
+			h1{
+				border: 1px solid black;
+				padding:10px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+	
+	</body>
+</html>

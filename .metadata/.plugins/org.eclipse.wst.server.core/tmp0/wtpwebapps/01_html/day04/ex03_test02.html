@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>배송 정보</title>
+		<style>
+			body{
+				width:30%;
+			}
+			filedset{
+				padding:20px;
+			}
+			legend{
+				font-weight: bold;
+			}
+			#memo{
+				vertical-align: top;
+			}  
+			#date{
+				width:30%;
+			}
+			input{
+				margin-left:10px;
+				width:80%;
+			} 
+			textarea{
+				margin-left:10px;
+			}
+			#small{
+				font-size:12px;
+			}
+		</style>
+	</head>
+	<body>
+		<fieldset>
+			<legend> 배송 정보 </legend>
+				<table>
+		            <tr>
+		            	<td>이름 </td><td><input type="text"></td>
+		            </tr>
+		            <tr>
+		            	<td>배송주소 </td><td><input type="text"></td>
+		            </tr>
+		            <tr>
+		            	<td>이메일 </td><td><input type="text"></td>
+		            </tr>
+		            <tr>
+		            	<td>연락처 </td><td><input type="text"></td>
+		            </tr>
+		            <tr>
+		            	<td>배송 지정 </td><td><input type="date" id="date"><span id="small"> (주문일로부터 최소 3일 이후)</span></td></tr>
+		            <tr>
+		            	<td id="memo">메모 </td><td><textarea cols="40" rows="4"></textarea></td>
+		            </tr>
+		            <tr>
+		            	<td><td>
+		            </tr>
+		        </table>
+		</fieldset>
+	</body>
+</html>

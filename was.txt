@@ -1,0 +1,95 @@
+- JSP 처리과정
+  
+  클라이언트 요청
+
+
+웹 페이지
+ - 정적페이지 : HTML, CSS, JS(JavaScript), image
+	       데이터베이스에서 정보를 가져오거나 별도의 서버에서의 처리가 없어도
+  	       사용자들에게 보여줄 수 있는 페이지
+	       어떠한 사용자가 오든 간에 동일한 페이지를 보여준다.
+     	       항상 동일한 페이지를 반환한다.
+
+ - 동적페이지 : JSP,
+	        서버가 데이터베이스에서 정보를 가져와서 처리하는 것처럼 어떠한 요청에 의하여
+	        서버가 일을 수행하고 해당결과가 포함된 파일을 보여주는 페이지
+ 	        사용자들마다 다른 페이지가 보여질 수 있다.
+                      웹 서버에 의해 실행되는 프로그램을 통해 만들어진 결과물 위에서 돌아가는 자바 프로그램
+
+ - 웹 서버 : Nginx, Apache, IIS
+	  웹 서버는 클라이언트가 요청한 정적인 콘텐츠를 HTTP 프로토콜을 통하여 제공해주는 서버이다.
+	  즉, 정적인 콘텐츠란 정적페이지를 말한다.
+	  다른 역할로는 동적인 요청이 클라이언트로부터 들어왔을 때, 
+ 	  해당 요청을 웹 서버에서 처리할 수 없기 때문에 웹 컨테이너로 보내는 역할을 한다.
+
+ - 웹 컨테이너 : tomcat
+	        동적인 데이터들을 처리하여 정적인 페이지로 생성해주는 소프트웨어 모듈이다.
+
+ - 웹 애플리케이션 서버(WAS : Web Application Server) : tomcat
+ 	: 웹 애플리케이션과 서버 환경을 만들어 동작시키는 기능을 제공하는 소프트웨어 프레임워크이다.
+	  WAS는 동적 서버 콘텐츠를 수행하는 것이 일반적인 웹 서버와 구별되며,
+	  주로 데이터베이스 서버와 같이 수행된다.   (웹 컨테이너 역할도 한다.)
+	  WAS = WebServer + WebContainer
+	             정적페이지 + 동적페이지
+
+ - 톰캣(WAS)
+ 	: 포트가 8080 포트로 오라클이랑 충돌이 난다.
+	  환경설정할 때 포트 변경 및 한글 처리를 해야 한다.
+	  
+ - tomcat : 8080 포트
+ - oracle : 8080 포트
+ - APACHE : 80 포트
+ - HTTP :     80 포트
+
+ - 톰캣 설치
+ 1. https://tomcat.apache.org/ 사이트로 이동해서 다운로드 하자
+ 2. c:\에 다운로드 받은 것을 이동시켜서 압축해제
+ 3. 환경 설정
+     -- con\    server.xml 파일 열어서 포트변경 및 한글처리하기
+     (Connector port="8090" URIEncoding="UTF-8" protocol="HTTP/1.1") 수정
+     -- logging.properties 파일을 열어서 콘솔창에 한글 깨지는 것 처리
+     java.util.logging.ConsoleHandler.encoding = UTF-8 -> EUC-KR
+
+ <!--
+    내 컴퓨터에서 마우스 우클릭  - 속성 - 고급 시스템 설정 - 환경변수 
+     시스템 변수 - 새로 만들기 - 변수이름 : CATALINA_HOME, 변수값 : C:\tomcat9
+     Path 선택 후 편집 -  새로만들기 - %CATALINA_HOME%bin 확인 
+     지워야 하는 경우가 있다
+ -->
+
+
+ 4. 세부내용
+     bin : 명령어들이 모여있는 곳
+            실행 : startup.bat, 종료 : shutdown.bat
+     conf(config) : 환경설정 
+	          server.xml => 포트변경 및 한글처리
+     webapps : 프로젝트파일을 넣어서 실행하면 웹 사이트가 되는 곳
+
+     startup.bat => 웹브라우저 창에서 localhost:8090 실행 => 아파치 톰캣 화면이 나오면 성공
+
+ 실행하기
+    1. startup.bat => 웹브라우저 창에서 localhost:8090 실행 => 아파치 톰캣 화면이 나오면 성공
+    2. webapps 안에 이름 폴더 만들고 텍스트 파일과 그림을 넣어보자
+    3. 브라우저에서 http://localhost:8090/이름폴더/원하는 텍스트파일이나 그림파일
+
+======================================
+이클립스에서 실행하기
+1. 이클립스 실행 후 webstudy 폴더를 선택 후 실행
+2. 환경 설정 
+    window - preferences - General - appearance - colors and fonts - basic - 맨 아래 - TextFont 더블클릭
+    window - preferences - General - workspace - Text File encoding - utf-8
+   // 이클립스에서 가상 톰캣을 설정해서 이클립스 자체에서 톰캣을 실행해서 
+   // 실제 톰캣을 실행하지 않아도 프로젝트 파일 내용을 볼 수 있게 한다.
+    window - preferences - Server - Runtime Enviroments 선택
+    add 눌러서 Apache - tomcat 9.0 선택 - 실제 위치 선택
+   실제 톰캣 위치를 지정해준다.
+
+   // 한글처리
+    Web - CSS - uft-8
+	HTML
+	JSP	
+
+    // Window - Web Browser - Chrome
+
+web.xml 알아보기
+

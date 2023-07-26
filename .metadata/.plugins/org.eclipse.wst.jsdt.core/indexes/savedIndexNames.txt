@@ -1,0 +1,19 @@
+INDEX VERSION 1.4+D:\ady\webstudy\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2444805891.index
+2064588380.index
+2992885960.index
+848579330.index
+131067289.index
+517266648.index
+1212221351.index
+793328914.index
+3016568620.index
+1167293332.index
+1592530987.index
+2144520938.index
+1892211983.index
+1314946054.index
+883817423.index
+489026572.index
+1453461556.index
+2207266649.index

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style>
+			body{
+				width:960px;
+				margin: 0 auto;
+			}
+			#header h2{
+				text-align: center;
+			}
+			#footer{
+				background-color: gray;
+				font-size:20px;
+				font-weight: bold;
+			}
+			ul{
+				list-style: none;
+				background-color: lightgray;
+				padding:10px;
+				text-align: center;
+			}
+			li{
+				display: inline-block;
+				color:white;
+				margin:20px;
+			}
+			li:hover{
+				background-color: white;
+				color:black;
+				cursor: pointer;
+			}
+			#content{
+				width:960px;
+			}
+			#article{
+				width:600px;
+				float:left;
+			}
+			#aside{
+				width:300px;
+				float:right;
+			}
+			#content:after{
+				content:"";
+				display:block;
+				clear:both;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+			<h2> 한국 ICT 인재 개발원 소식 </h2>
+			<ul>
+				<li>HOME</li>
+				<li>News</li>
+				<li>Content</li>
+				<li>About</li>
+			</ul>
+			</div>
+			<div id="content">
+				<div id="article">
+					<div class="article">
+						<h2>article-1</h2>
+						<p>
+						em ipsum dolor sit amet, consectetur adipiscing elit, 
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Volutpat odio facilisis mauris sit amet massa. 
+						Commodo odio aenean sed adipiscing diam d
+						</p>
+					</div>
+					
+					<div class="article">
+						<h2>article-2</h2>
+						<p>
+						 Non tellus orci ac auctor augue. Elit at imperdiet dui accumsan sit. Ornare arcu dui vivamus arcu felis. Egestas integer eget aliquet nibh praesent. 
+						 In hac habitasse platea dictumst
+						  quisque sagittis purus. Pulvin
+						</p>
+					</div>
+					
+					<div class="article">
+						<h2>article-3</h2>
+						<p>
+						lacus vestibulum sed arcu non odio euismod 
+						lacinia. In tellus integer feugiat scelerisque. 
+						Feugiat in fermentum posuere urna nec tincidunt praesent. Porttitor rhoncus dolor 
+						purus non enim praesent elementum facilisis. Nisi scelerisque eu ultrices 
+						vitae auctor eu augue ut lectus. Ipsum faucibus vitae
+						</p>
+					</div>
+					
+					<div class="article">
+						<h2>article-4</h2>
+						<p>
+						Sit amet nulla facilisi morbi tempus. 
+						Nulla facilisi cras fermentum odio eu.
+						 Etiam erat velit scelerisque in dictum non consectetur a erat. 
+						 Enim nulla aliquet porttitor lacus luctus 
+						accumsan tortor posuere. Ut sem nulla pharetra diam. 
+						</p>
+					</div>
+				</div>
+				<div id="aside">
+					<h2>aside</h2>
+					<p>
+					Fames ac turpis egestas maecenas. 
+					Bibendum neque egestas congue quisque egestas diam. 
+					Laoreet id donec ultrices tincidunt arcu non sodales neque.
+					</p>
+				</div>
+			</div>
+			<div id="footer">
+				<p>footer</p>
+			</div>
+		</div>
+	</body>
+</html>

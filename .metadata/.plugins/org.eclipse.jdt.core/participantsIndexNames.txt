@@ -1,0 +1,23 @@
+INDEX VERSION 1.132
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\721597152.index
+\test222\src\main\java
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\602562243.index
+\Study30_ehdgo\src\main\java
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4292306769.index
+\Study32\src\main\java
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2299210525.index
+\Study16\src\main\java
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2020715538.index
+\Study33\src\main\java
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\246276190.index
+\Study17\src\main\java
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2446597667.index
+\Z_study1\src\main\java
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\277205424.index
+\Study22\src\main\java
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1700661258.index
+\test624\src\main\java
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2871232861.index
+\StudyCss\src\main\java
+D:\ady\webstudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1516429202.index
+\test002\src\main\java

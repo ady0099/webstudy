@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>layout(float활용)</title>
+		<style>
+			*{
+				margin:0;
+				padding:0;
+				box-sizing: border-box;
+				overflow: hidden;
+				font-size: 25px;
+			}
+			body{
+				width:1400px;
+				padding:20px;
+				
+			}
+			
+			#wrap{
+				width:1200px;
+				height: 820px;
+				border:2px solid black;
+				text-align: center;
+				font-weight: bold;
+			}
+			#header{
+				width: 1196px;
+				height: 120px;
+				background-color: gray;
+				border-bottom: 2px solid black;
+				line-height: 120px;
+			}
+			#content{
+				width:1200px;
+				height: 600px;
+				line-height: 600px;
+			}
+			#conLeft{
+				display:inline-block;
+				width:299px;
+				height:600px;
+				margin-left:-4px;
+				background-color: skyblue;
+				border-right: 1px solid black;
+			}
+			#conRight{
+				display:inline-block;
+				width: 899px;
+				height: 600px;
+				margin-left:-9px;
+				background-color: lightgray;	
+				border-left: 1px solid black;		
+			}
+			
+			#footer{
+				width:1196px;
+				height:98px;
+				background-color: gray;
+				line-height: 98px;
+				border-top: 2px solid black;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				헤더
+			</div>
+			<div id="content">
+				<div id="conLeft">
+					사이드바
+				</div>
+				<div id="conRight">
+					본문
+				</div>
+			</div>
+			<div id="footer">
+				푸터
+			</div>
+		</div>
+	</body>
+</html>

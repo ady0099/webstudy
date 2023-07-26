@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style>
+			div#btnWrap{
+			    text-align: center;
+   				margin: 20px;
+			}
+			.box{
+				width: 200px;
+				height: 200px;
+				border: 1px solid black;
+				margin: auto;
+				line-height: 200px;
+				text-align: center;
+			}
+			#box1{
+				background-color: red;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id="btnWrap">
+			<button onclick="clr()">CLEAR</button>
+			<button onclick="setRed()">RED</button>
+			<button onclick="setGreen()">GREEN</button>
+			<button onclick="setBlue()">BLUE</button>
+			<button onclick="setBlack()">BLACK</button>			
+		</div>
+		<div class="box" id="box1"> BOX 1 </div>
+
+		<script type="text/javascript">
+			function clr(){
+				document.getElementById("box1").style.display='none';
+				document.getElementById("box1").style.backgroundColor='white';
+				document.getElementById("box1").style.color='black';
+			}
+			function setRed(){
+				document.getElementById("box1").style.display='block';
+				document.getElementById("box1").style.backgroundColor='red';		
+				document.getElementById("box1").style.color='black';
+			}
+			function setBlue(){
+				document.getElementById("box1").style.display='block';
+				document.getElementById("box1").style.backgroundColor='blue';		
+				document.getElementById("box1").style.color='black';
+			}
+			function setGreen(){
+				document.getElementById("box1").style.display='block';
+				document.getElementById("box1").style.backgroundColor='Green';
+				document.getElementById("box1").style.color='black';
+			}
+			function setBlack(){
+				document.getElementById("box1").style.display='block';
+				document.getElementById("box1").style.backgroundColor='black';
+				document.getElementById("box1").style.color='white';				
+			}
+		</script>
+	</body>
+</html>

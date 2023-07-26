@@ -1,0 +1,28 @@
+
+6월 22, 2023 13:42:27.769 NEW SESSION
+6월 22, 2023 13:42:27.769 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 22, 2023 13:49:42.517 [3864:9800:0622/134942.517:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 22, 2023 13:52:17.810 [3864:9800:0622/135217.810:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 22, 2023 15:32:30.680 [4220:9336:0622/153230.679:ERROR:cert_verify_proc_builtin.cc(702)] CertVerifyProcBuiltin for miheeya.com failed:
+6월 22, 2023 15:32:30.680 ----- Certificate i=0 (O=My Company Ltd,L=Newbury,ST=Berkshire,C=GB) -----
+6월 22, 2023 15:32:30.680 ERROR: No matching issuer found
+6월 22, 2023 15:32:30.681 
+6월 22, 2023 15:32:30.681 
+6월 22, 2023 15:55:01.867 [4220:7196:0622/155501.867:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+6월 23, 2023 16:47:05.238 NEW SESSION
+6월 23, 2023 16:47:05.238 [8936:13348:0623/164705.237:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 23, 2023 16:47:41.691 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 23, 2023 17:13:57.535 [8936:13348:0623/171357.535:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 23, 2023 17:13:57.536 [8936:13348:0623/171357.535:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 23, 2023 18:02:36.694 [8936:13348:0623/180236.694:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 23, 2023 18:02:36.695 [8936:13348:0623/180236.694:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+6월 28, 2023 10:50:27.56 NEW SESSION
+6월 28, 2023 10:50:27.56 [9224:4852:0628/105027.046:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 28, 2023 11:50:21.700 [9224:4852:0628/115021.700:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 28, 2023 11:50:21.700 [9224:4852:0628/115021.700:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 28, 2023 11:58:18.938 [9224:4852:0628/115818.937:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+6월 28, 2023 12:00:00.758 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+6월 28, 2023 16:23:46.306 [0628/162346.304:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\ict01-23\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\02f85783-37ee-4dc1-909d-a91af2fed1b7: 지정된 파일을 찾을 수 없습니다. (0x2)
+6월 28, 2023 16:23:46.307 [0628/162346.306:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\ict01-23\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\02f85783-37ee-4dc1-909d-a91af2fed1b7: 지정된 파일을 찾을 수 없습니다. (0x2)

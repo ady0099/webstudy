@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<p id="demo1">Hello World</p>
+		<script type="text/javascript">
+			// html 요소 변경하기
+			// 내용(텍스트=content)
+		</script>
+	</body>
+</html>

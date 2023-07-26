@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Math 객체</title>
+		<script type="text/javascript">
+			/* 주요 메서드
+				min, max, random, round, floor, ceil
+			*/
+			
+			// min(...)	: 인자들 중 가작 작은 값
+			document.write(Math.min(1,-2,95,-4,40,67)+"<br>");			// -4
+			document.write(Math.min(1,-2,95,"-4",40,67)+"<br>");		// -4
+			document.write(Math.min(1,-2,95,"hello",40,67)+"<br>");		// NaN
+
+			// max(...)	: 인자들 중 가작 큰 값
+			document.write(Math.max(1,-2,95,-4,40,67)+"<br>");			// 95
+			document.write(Math.max(1,-2,"95",-4,40,67)+"<br>");		// 95
+			document.write(Math.max(1,-2,95,"hello",40,67)+"<br>");		// NaN
+			
+			// random() : 난수 발생(0.0 ~ 1.0미만)
+			document.write(Math.random()+"<br>");
+			
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>
